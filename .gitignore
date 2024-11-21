@@ -46,5 +46,4 @@ dist/
 # Ignorar arquivos gerados por Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Incluir o diretório específico src dentro do .venv
-!.venv/.src/
+
