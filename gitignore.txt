@@ -1,0 +1,50 @@
+# Ignorar o ambiente virtual
+.venv/
+
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignorar configurações do sistema operacional
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignorar arquivos de IDEs comuns
+.vscode/
+.idea/
+*.swp
+
+# Ignorar outros arquivos temporários
+*.egg-info/
+.eggs/
+*.bak
+
+# Ignorar arquivos de cache e lock de pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+.env
+
+# Ignorar testes de cobertura
+.coverage
+*.cover
+htmlcov/
+
+# Ignorar builds e distribuições
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Ignorar arquivos gerados por Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Incluir o diretório específico src dentro do .venv
+!.venv/.src/
